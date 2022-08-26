@@ -1,0 +1,50 @@
+
+##### Demo web-app
+
+Setup:
+
+- cài ganache => new workspace => accounts & key => nhập: moment affair crime judge radar merge include cheese desert leg lamp outside => save
+- run: yarn deploy-ganache
+
+- run: yarn => cài thư viện (run cả backend và frontend)
+- run: yarn start 
+
+- Sử dụng MetaMask: moment affair crime judge radar merge include cheese desert leg lamp outside
+
+- add network Ganache (Name: Ganache, URL: RPC server in ganache, chain ID: 1337, Symbol: ETH) to MetaMask
+
+** New IDO
+ - Token IDO address: address of Token IDO
+ - IDO amount > USDT amount
+
+** Buy IDO
+ - create account2 -> send USDT from account1 to account2 => Sử dụng account2 để buy IDO
+
+
+
+
+
+##### Demo smartcontract
+devlop tất cả contract : DOGE addrr-2, USDT addrr-1, Pool addrr-3
+
+add IDO:
+sử dụng addrress 2
+approve DOGE cho addrress Pool
+DOGE: 200000000000000000000
+
+sử dụng account devlop DOGE để thựuc hiện add IDO
+
+BuyIDO: 
+sử dụng address 1 có USDT
+approve USDT cho addrress Pool
+
+=>> lấy ID đã add bên trên
+
+=>> Buy IDO
+
+
+
+clamLeftido: lấy lại số DOGE còn thừa sau khi hết phiên IDO
+
+
+
