@@ -21,7 +21,7 @@ module.exports = {
   UploadImage: async (req, res) => {
     try {
       const image = req.files[0];
-      res.json(onSuccess(image.path.replace("uploads/", "").replace("uploads\\", "")));
+      res.json(onSuccess(image.path.replace("uploads\\", "")));
     } catch (err) {
       res.json(onError(err));
     }
