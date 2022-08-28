@@ -60,16 +60,17 @@ export const NFTItem = (props: any) => {
           display: "flex",
         }}
       >
+        <br></br>
         <p />
         {account != owner && (
-          <a
-            onClick={() => {
-              window.open(`https://rinkeby.etherscan.io/address/${owner}`);
-            }}
+          <div
+            // onClick={() => {
+            //   window.open(`https://rinkeby.etherscan.io/address/${owner}`);
+            // }}
             className="font-bold text-primary"
             style={{
-              fontSize: "0.8rem",
-              cursor: "pointer",
+              fontSize: "0.85rem",
+              //cursor: "pointer",
             }}
             children={`Owner: ${owner}`}
           />

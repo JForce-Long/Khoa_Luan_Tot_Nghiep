@@ -26,7 +26,7 @@ export const ModalCreateERC20 = (props: any) => {
       keyboard={false}
     >
       <Modal.Header closeButton>
-        <Modal.Title>Create ERC20</Modal.Title>
+        <Modal.Title>Create Token</Modal.Title>
       </Modal.Header>
       <Modal.Body>
         {!addressErc20 ? (

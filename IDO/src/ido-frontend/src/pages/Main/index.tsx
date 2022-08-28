@@ -240,7 +240,7 @@ const Application = () => {
       <nav className="navbar navbar-dark fixed-top bg-light flex-md-nowrap p-0 shadow">
         <a
           className="navbar-brand col-sm-3 col-md-2 mr-0 text-secondary"
-          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          href="http://localhost:3000/"
         >
           <img
             src={logo}
@@ -270,7 +270,7 @@ const Application = () => {
                 onClick={showCreateERC20}
                 className="btn btn-warning"
               >
-                Create ERC20
+                Create Token
               </button>
               <button
                 style={{
@@ -353,6 +353,7 @@ const Application = () => {
         </div>
       )}
 
+      <br></br>
       <div style={{ flex: 4 }}>
         <h1 style={{ marginTop: 100 }} id="title">
           Launchpad
